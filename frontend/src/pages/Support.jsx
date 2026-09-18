@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://personalexpensetracker-backend-rph4.onrender.com/api";
 
 const Support = () => {
   const [tickets, setTickets] = useState([]);
