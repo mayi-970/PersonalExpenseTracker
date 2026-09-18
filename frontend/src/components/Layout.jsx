@@ -1,6 +1,6 @@
 import React,{useMemo, useEffect, useState} from 'react';
 import{styles} from '../assets/dummyStyles.js';
-import Navbar from './navbar.jsx';
+import Navbar from './Navbar.jsx';
 import Sidebar from './Sidebar.jsx';
 import { Home, Utensils, Car, ShoppingCart, Gift, Zap, Activity, ArrowUp, CreditCard, PiggyBank,IndianRupee, TrendingDown, TrendingUp, Clock, ChevronDown, Info, PieChart } from 'lucide-react';
 import { Outlet } from 'react-router-dom';
