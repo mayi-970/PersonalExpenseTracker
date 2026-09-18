@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Mail, User, Lock, EyeOff, Eye } from 'lucide-react';
 import axios from 'axios';
 
-const Login = ({onLogin, API_URL ="http://localhost:4000"}) => {
+const Login = ({onLogin, API_URL ="https://personalexpensetracker-backend-rph4.onrender.com"}) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);

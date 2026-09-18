@@ -10,7 +10,7 @@ import Expense from "./pages/Expense.jsx";
 import Profile from "./pages/Profile.jsx";
 import Support from "./pages/Support.jsx";
 
-const API_URL ="http://localhost:4000";
+const API_URL ="https://personalexpensetracker-backend-rph4.onrender.com";
 
 // to get transactions from localStorage
 const getTransactionsFromStorage = () => {

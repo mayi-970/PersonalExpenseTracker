@@ -10,7 +10,7 @@ import { Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recha
 import AddTransactionModal from '../components/Add.jsx';
 import axios from 'axios';
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://personalexpensetracker-backend-rph4.onrender.com/api";
 
 const getAuthHeader = () => {
     const token = localStorage.getItem("token") || localStorage.getItem("authToken");
